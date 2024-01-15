@@ -2,7 +2,7 @@
 Un script para hacer backdoor a los SMS de un teléfono 📲 fácilmente.
 ✅Este script es para hacer backdoor a los sms de un teléfono fácilmente.✅
 
-![Image](https://github.com/users/Luke-Galaxy/projects/3/assets/128195749/8ef33da8-0626-4168-822c-8a9c373679a1)
+
 
 ✅El 87% de el código del script está hecho por Chat GPT-3 y GPT-3 y el resto está regulado por mí. 
 ❌Este script tiene errores que voy a correr en el futuro, pero funciona a la perfección si siguen los pasos. 
@@ -22,15 +22,15 @@ Pasos:
 
 3️⃣ Descarga el repositorio en termux o Linux en la terminal.
 
-> git clone https://github.com/Luke-Galaxy/MkBdLuke
+[] (git clone https://github.com/Luke-Galaxy/MkBdLuke)
 
 4️⃣ Entra en el repositorio y dale permisos de ejecución.
 
-> cd MkBdLuke && chmod *.sh
+[] (cd MkBdLuke && chmod *.sh)
 
 5️⃣ Instala apktool
 
-> bash apktool.sh
+[] (bash apktool.sh)
 
 7️⃣ Inserta tu chat 🆔 y tu token del bot de telegram.
 
@@ -40,4 +40,4 @@ Pasos:
 
 🔟 Muévela al almacenamiento interno y ¡envíala a tu víctima!
 
-> mv modified.apk /sdcard/
+[] (mv modified.apk /sdcard/)
