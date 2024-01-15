@@ -40,5 +40,4 @@ Pasos:
 
 🔟 Muévela al almacenamiento interno y ¡envíala a tu víctima!
 
-[] 
-(mv modified.apk /sdcard/)
+> mv modified.apk /sdcard/
