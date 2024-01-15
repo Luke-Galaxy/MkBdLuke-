@@ -8,8 +8,6 @@ fi
 if ! command -v figlet &> /dev/null; then
     pkg install figlet
 fi
-if ! command -v trans &> /dev/null; then                                                    pip install translate-shell
-fi
 if ! command -v toilet &> /dev/null; then
     pkg install toilet
 fi
@@ -55,24 +53,10 @@ function show_menu() {
     done
 }
 
-#Comprobar si APK Tool está instalado
+#Comprobar si apktool está instalado
 if ! command -v apktool &> /dev/null; then
     echo "APK Tool no está instalado en tu sistema."
-    echo "¿Quieres instalar APK Tool?"
-    select yn in "Sí" "No"; do
-        case $yn in
-            Sí )
-                # Instalar APK Tool
-                echo "Instalando APK Tool..."
-                # Coloca aquí el comando para instalar APK Tool, por ejemplo:
-                # sudo apt-get install apktool
-                break;;
-            No )
-                echo "No se ha instalado APK Tool. El script no puede continuar sin él."
-                exit 1;;
-        esac
-    done
-fi
+    exit
 
 #Obtener el token de bot y el id chat de Telegram.
 cyan_color="\033[36m"
@@ -123,21 +107,21 @@ while true; do
         fi
     fi
 done
-# Bloque 5. Descompilar el APK encontrado
+#Descompilar el apk encontrado.
 apk_directory=$(dirname "$apk_file")
 decompiled_apk="$apk_directory/decompiled"
 apktool d "$apk_file" -o "$decompiled_apk"
 
-# Bloque 6. Editar el archivo token.txt e id.txt en la carpeta assets de la APK descompilada
+#insertar los cambios en el apk.
 echo "$token" > "$decompiled_apk/assets/token.txt"
 echo "$chat_id" > "$decompiled_apk/assets/id.txt"
 
-# Bloque 7. Compilar la APK modificada
+#Compilar la APK modificada
 cd "$decompiled_apk"
 apktool empty-framework-dir --force
 if apktool b . -o modified.apk; then
     echo "¡Compilación completada con éxito!"
-    # Bloque 8. Mover el APK compilado a la carpeta inicial
+    #Mover el APK compilado a la carpeta inicial
     mv modified.apk "$original_path/modified.apk"
 else
     echo "Error al compilar la APK: $(cat apktool.err)"
@@ -154,6 +138,6 @@ else
         esac
     done
 fi
-# Bloque 9. Eliminar la carpeta decompiled si todo va bien
+#Eliminar la carpeta decompiled si todo va bien
 cd "$original_path"
 rm -rf "$decompiled_apk"
