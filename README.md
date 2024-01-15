@@ -2,7 +2,7 @@
 Un script para hacer backdoor a los SMS de un teléfono 📲 fácilmente.
 ✅Este script es para hacer backdoor a los sms de un teléfono fácilmente.✅
 
-cualquier sugerencia o duda, envíame un mensaje a mi telegram. https://t.me/GalaxyLuke1
+cualquier sugerencia o duda, envíame un mensaje a mi telegram. https://t.me/Luke_Galaxy
 
 ✅El 87% de el código del script está hecho por Chat GPT-3 y GPT-3 y el resto está regulado por mí. 
 ❌Este script tiene errores que voy a correr en el futuro, pero funciona a la perfección si siguen los pasos. 
