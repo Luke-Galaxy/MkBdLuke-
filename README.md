@@ -18,19 +18,19 @@ Pasos:
 2️⃣ Obtén el token del bot y tu chat 🆔.
       Dirígete a este enlace y descarga el tutorial para aprender a hacer un bot de Telegram, obtener el token de éste bot y tu chat id de cuenta.
 
-               [](https://cuty.io/ArDgRjXPr)
+> https://cuty.io/ArDgRjXPr
 
 3️⃣ Descarga el repositorio en termux o Linux en la terminal.
 
-    []     (git clone https://github.com/Luke-Galaxy/MkBdLuke)
+> git clone https://github.com/Luke-Galaxy/MkBdLuke
 
 4️⃣ Entra en el repositorio y dale permisos de ejecución.
 
-  []    (cd MkBdLuke && chmod *.sh)
+> cd MkBdLuke && chmod *.sh
 
 5️⃣ Instala apktool
 
-     []     (bash apktool.sh)
+> bash apktool.sh
 
 7️⃣ Inserta tu chat 🆔 y tu token del bot de telegram.
 
