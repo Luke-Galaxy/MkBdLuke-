@@ -22,7 +22,7 @@ Pasos:
 
 3️⃣ Descarga el repositorio en termux o Linux en la terminal.
 
-> git clone https://github.com/Luke-Galaxy/MkBdLuke
+> git clone https://github.com/Luke-Galaxy/MkBdLuke-
 
 4️⃣ Entra en el repositorio y dale permisos de ejecución.
 
