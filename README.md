@@ -43,8 +43,10 @@ Pasos:
 > mv modified.apk /sdcard/
 
 
-🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 Corrección de errores después 
-de la subida del script                🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+Corrección de errores después 
+de la subida del script.
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
 Información de las aplicaciones:
 
