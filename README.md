@@ -45,7 +45,7 @@ Pasos:
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 Corrección de errores después 
-de la subida del script.
+de la subida del script.        
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
 Información de las aplicaciones:
